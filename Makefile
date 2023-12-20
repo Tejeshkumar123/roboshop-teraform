@@ -1,5 +1,5 @@
 dev:
-	@rm -rf .terraform #####tag space############
+	@rm -rf .terraform #####tab space############
 	@terraform init
 	@terraform apply -auto-approve -var-file=env-dev/main.tfvars
 destroy:
